@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Compara Textos</string>
+    <string name="buttonCompare">Comparar</string>
+    <string name="continuar">Continue</string>
 </resources>
