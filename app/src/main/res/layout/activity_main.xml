@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp">
 
-<EditText
-    android:id="@+id/editText1"
-    android:layout_width="320dp"
-    android:layout_height="248dp"
-    android:layout_gravity="center"
-    android:inputType="text"
-    android:hint="Texto 1"
-    android:autofillHints="" />
 
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="320dp"
+        android:layout_height="248dp"
+        android:layout_gravity="center"
+        android:autofillHints=""
+        android:background="#E4CCE8"
+        android:hint="@string/TextHint"
+        android:inputType="text"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"/>
 
     <EditText
         android:id="@+id/editText2"
@@ -24,8 +27,12 @@
         android:layout_height="248dp"
         android:layout_gravity="center"
         android:autofillHints=""
-        android:hint="Texto 2"
-        android:inputType="text" />
+        android:background="#E4CCE8"
+
+        android:hint="@string/TextHint2"
+        android:inputType="text"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/resultTextView"
@@ -33,15 +40,19 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=""
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_marginBottom="64dp"
+        android:gravity="left"/>
 
     <Button
         android:id="@+id/compareButton"
-        android:layout_width="377dp"
+        android:layout_width="319dp"
         android:layout_height="48dp"
-
-        android:layout_gravity="center_horizontal|bottom"
+        android:layout_gravity="bottom|center_horizontal"
         android:background="#E4BCF3"
-        android:text="Comparar" />
+        android:text="@string/buttonCompare"
+        android:elevation="16dp"
+
+        />
 
 </LinearLayout>

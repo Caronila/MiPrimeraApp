@@ -1,5 +1,8 @@
 <resources>
+
     <string name="app_name">Compara Textos</string>
     <string name="buttonCompare">Comparar</string>
     <string name="continuar">Continue</string>
+    <string name="TextHint">Escriba su texto aquí</string>
+    <string name="TextHint2">Escriba su segundo texto aquí</string>
 </resources>
